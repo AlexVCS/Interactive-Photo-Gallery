@@ -4,9 +4,13 @@
 }
 
 .search {
+    margin: 0 50%;
     padding-top: 30px;
     padding-bottom: 50px;
-    font-size: 10px;
+}
+
+.textbox {
+    font-size: 15px;
 }
 
 @media (min-width: 768px) {
