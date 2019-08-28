@@ -4,26 +4,36 @@
     <meta charset="utf-8">
     <title>Interactive Photo Gallery</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
   </head>
   <body>
+  <main>
     <div class="search">
     <input class="textbox" type="text" placeholder="Search(16pt)">
-    </div>  
-
-    <img class= "gallery" src="photos/thumbnails/01.jpg">
-    <img class= "gallery" src="photos/thumbnails/02.jpg">
-    <img class= "gallery" src="photos/thumbnails/03.jpg">
-    <img class= "gallery" src="photos/thumbnails/04.jpg">
-    <img class= "gallery" src="photos/thumbnails/05.jpg">
-    <img class= "gallery" src="photos/thumbnails/06.jpg">
-    <img class= "gallery" src="photos/thumbnails/07.jpg">
-    <img class= "gallery" src="photos/thumbnails/08.jpg">
-    <img class= "gallery" src="photos/thumbnails/09.jpg">
-    <img class= "gallery" src="photos/thumbnails/10.jpg">
-    <img class= "gallery" src="photos/thumbnails/11.jpg">
-    <img class= "gallery" src="photos/thumbnails/12.jpg">
+    </div>
     
+    <section class="gallery">
+
+    <a href="photos/01.jpg" data-lightbox="natureGallery" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+      <img src="photos/thumbnails/01.jpg"></a>
+    <img src="photos/thumbnails/02.jpg">
+    <img src="photos/thumbnails/03.jpg">
+    <img src="photos/thumbnails/04.jpg">
+    <img src="photos/thumbnails/05.jpg">
+    <img src="photos/thumbnails/06.jpg">
+    <img src="photos/thumbnails/07.jpg">
+    <img src="photos/thumbnails/08.jpg">
+    <img src="photos/thumbnails/09.jpg">
+    <img src="photos/thumbnails/10.jpg">
+    <img src="photos/thumbnails/11.jpg">
+    <img src="photos/thumbnails/12.jpg">
+
+   </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </main>
   </body>
 </html>
