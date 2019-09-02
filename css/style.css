@@ -1,4 +1,8 @@
 * {
+    box-sizing: border-box;
+}
+
+body {
     background-color: #fff;
     font-family: 'DM Serif Text', serif;
 }
@@ -15,12 +19,18 @@
     line-height: 35px;
 }
 
-@media (min-width: 768px) {
+.gallery {
+    margin-left: 60px;
+}
 
-    img {
-        
+@media (min-width: 768px) {
+    .gallery {
+        margin-left: 40px;
         padding-left: 40px;
-        padding-bottom: 20px;
     }
+
+}
+
+@media (min-width: 1200px) {
 
 }
