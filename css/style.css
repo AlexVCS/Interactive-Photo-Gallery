@@ -14,23 +14,42 @@ body {
 }
 
 .textbox {
-    font-size: 15px;
-    width: 40%;
+    font-size: 45px;
+    padding-left: 35px;
+    width: 50%;
     line-height: 35px;
 }
 
-.gallery {
-    margin-left: 60px;
+.photos {
+    width: 65%;
+    margin-left: 120px;
+    padding-bottom: 65px;
 }
 
 @media (min-width: 768px) {
-    .gallery {
-        margin-left: 40px;
-        padding-left: 40px;
+    .textbox {
+        font-size: 25px;
+    }
+
+    .photos {
+        width: 25%;
+        margin-left: 60px;
     }
 
 }
 
 @media (min-width: 1200px) {
+    .textbox {
+        font-size: 20px;
+        width: 40%;
+    }
 
+    .gallery {
+        padding-left: 50px;
+    }
+
+    .photos {
+        width: 15%;
+        margin-left: 75px;
+    }
 }
