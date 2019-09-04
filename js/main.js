@@ -1,2 +1,2 @@
-const search = $('.textbox').val().toLowerCase();
-console.log(search);
+const $search = $('.textbox').val();
+console.log($search);

@@ -10,19 +10,21 @@ body {
 .search {
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .textbox {
-    font-size: 45px;
-    padding-left: 35px;
+    font-size: 15px;
+    padding-left: 15px;
     width: 50%;
     line-height: 35px;
+    border: 1.5px solid lightgray;
+    border-radius: 6px;
 }
 
 .photos {
     width: 65%;
-    margin-left: 120px;
+    margin-left: 60px;
     padding-bottom: 65px;
 }
 
@@ -33,7 +35,7 @@ body {
 
     .photos {
         width: 25%;
-        margin-left: 60px;
+        margin-left: 45px;
     }
 
 }
