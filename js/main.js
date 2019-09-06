@@ -1,2 +1,5 @@
-const $search = $('.textbox').val().toLowerCase();
-console.log($search);
+$('.textbox').click(function () {
+const $search = $('input[name=search]');
+$search.focus();
+console.log($search.val().toLowerCase());
+});
