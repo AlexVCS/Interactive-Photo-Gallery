@@ -1,7 +1,7 @@
 document.getElementById('searchbox').addEventListener('keyup', myFunction);
 
 function myFunction () {
-    var input, filter, ul, li, a, i, caption;
+    let input, filter, ul, li, a, i, caption;
     input = document.getElementById('searchbox');
     filter= input.value.toLowerCase();
     ul = document.getElementById('lesPhotos');
